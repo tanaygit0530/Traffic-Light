@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.traffic-light {
+  width: 120px;
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.light {
+  width: 80px;
+  height: 80px;
+  background: #555;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.red.on {
+  background: red;
+}
+
+.green.on {
+  background: green;
+}
+
+.yellow.on {
+  background: yellow;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
